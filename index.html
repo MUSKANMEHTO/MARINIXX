@@ -1,0 +1,516 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARENIX - AI-Driven Marine Data Platform</title>
+    <meta name="description" content="AI-powered unified marine data platform for oceanography, fisheries, taxonomy and eDNA research">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-water"></i>
+                MARENIX
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#datasets">Datasets</a></li>
+                <li><a href="#visualization">Visualization</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.9rem;">Get Started</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="video-background">
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/8cULX5QP5L0?autoplay=1&mute=1&loop=1&playlist=8cULX5QP5L0&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&rel=0&enablejsapi=1" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen
+                    id="youtube-iframe">
+                </iframe>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <!-- Marine Life Animations -->
+        <div class="marine-life">
+            <div class="fish fish1">
+                <i class="fas fa-fish"></i>
+            </div>
+            <div class="fish fish2">
+                <i class="fas fa-fish"></i>
+            </div>
+            <div class="fish fish3">
+                <i class="fas fa-fish"></i>
+            </div>
+            <div class="jellyfish">
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="bubble bubble1"></div>
+            <div class="bubble bubble2"></div>
+            <div class="bubble bubble3"></div>
+            <div class="bubble bubble4"></div>
+            <div class="bubble bubble5"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <h1>AI-Driven Unified Data Platform for Oceanographic & Biodiversity Insights</h1>
+            <p>Integrate satellite, oceanographic, fisheries, taxonomy and eDNA data — powered by AI analytics and interactive visualizations.</p>
+            <div class="hero-buttons">
+                <a href="#datasets" class="btn btn-primary">Explore Data</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="wave"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About MERENIX</h2>
+                <p>Advancing marine research through integrated data and artificial intelligence</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Revolutionizing Marine Data Analysis</h3>
+                    <p>MERENIX is a cutting-edge platform designed to unify disparate marine data sources into a single, accessible interface. By leveraging advanced AI algorithms, we transform complex oceanographic, fisheries, and biodiversity data into actionable insights.</p>
+                    <p>Our mission is to democratize access to marine data and accelerate scientific discovery by breaking down data silos and providing powerful analytical tools.</p>
+                    
+                    <div class="about-icons">
+                        <div class="about-icon">
+                            <i class="fas fa-database"></i>
+                            <span>Unified Data</span>
+                        </div>
+                        <div class="about-icon">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Analytics</span>
+                        </div>
+                        <div class="about-icon">
+                            <i class="fas fa-users"></i>
+                            <span>Research Community</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Ocean research" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+   <!-- Features Section -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="section-header">
+            <h2>Platform Features</h2>
+            <p>Comprehensive tools for marine data integration and analysis</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Unified Data Integration</h3>
+                <p>Seamlessly combine satellite, oceanographic, fisheries, taxonomy, and eDNA data in a single platform.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>AI-Powered Analytics</h3>
+                <p>Leverage machine learning algorithms to identify patterns, predict trends, and extract insights from complex marine datasets.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Visualization Tools</h3>
+                <p>Create interactive maps, heatmaps, and 3D visualizations to explore and communicate marine data effectively.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <h3>Taxonomy & eDNA</h3>
+                <p>Access comprehensive species databases and analyze environmental DNA samples to assess marine biodiversity.</p>
+            </div>
+
+            <!-- 🌊 New Feature 1 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-water"></i>
+                </div>
+                <h3>Real-Time Ocean Monitoring</h3>
+                <p>Track live ocean conditions such as temperature, salinity, and currents to support timely decision-making.</p>
+            </div>
+
+            <!-- 🌍 New Feature 2 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Collaborative Research Hub</h3>
+                <p>Connect with scientists, policymakers, and organizations to share data, insights, and research findings.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Datasets Section -->
+    <section class="datasets" id="datasets">
+        <div class="container">
+            <div class="section-header">
+                <h2>Marine Datasets</h2>
+                <p>Explore our comprehensive collection of marine data resources</p>
+            </div>
+            <div class="tabs">
+                <button class="tab active" data-tab="oceanography">Oceanography</button>
+                <button class="tab" data-tab="fisheries">Fisheries & Taxonomy</button>
+                <button class="tab" data-tab="edna">Molecular/eDNA</button>
+            </div>
+            <div class="tab-content active" id="oceanography">
+                <div class="dataset-grid">
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/XJPYNBvj/Underwater-Paradise.jpg" alt="Ocean temperature data">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Sea Surface Temperature</h3>
+                            <p>High-resolution satellite data on sea surface temperatures across the Indian Ocean region from 2000 to present.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/7LdLwThx/Download-premium-image-of-Crazy-blue-waves-ocean-outdoors-nature-sports-by-Ling-about-iphone-wallpa.jpg" alt="Ocean currents">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Ocean Currents & Circulation</h3>
+                            <p>Comprehensive data on ocean currents, circulation patterns, and their seasonal variations in the Indian Ocean.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/NG1P8q1D/Sea-animals-Photos-Download-Free-High-Quality-Pictures-Freepik.jpg" alt="Ocean chemistry">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Marine Chemistry</h3>
+                            <p>Data on pH levels, dissolved oxygen, nutrient concentrations, and carbon chemistry in Indian Ocean waters.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="fisheries">
+                <div class="dataset-grid">
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/mrwSnBgN/Free-Vibrant-Underwater-Life-Image-Download-at-Stock-Cake.jpg" alt="Fish catch data">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Fish Catch Statistics</h3>
+                            <p>Comprehensive data on commercial fish catches by species, region, and season across Indian coastal waters.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/DzqZgw55/Can-Jellyfish-Get-Dizzy.jpg" alt="Marine species">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Marine Species Database</h3>
+                            <p>Taxonomic information, distribution maps, and conservation status for over 5,000 marine species in the Indian Ocean.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/gj9qXJSp/Wallpaper-pc.jpg" alt="Habitat mapping">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Critical Habitats Mapping</h3>
+                            <p>GIS data on coral reefs, seagrass beds, mangroves, and other critical marine habitats in the Indian Ocean region.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="edna">
+                <div class="dataset-grid">
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/X71qQhWG/Whale-Shark-Wallpaper-Free-Download.jpg" alt="eDNA samples">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>eDNA Sample Collection</h3>
+                            <p>Environmental DNA samples from across the Indian Ocean, including collection metadata and preliminary analysis results.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/435r1CCj/Such-clear-and-beautiful-water.jpg" alt="Genetic sequences">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Genetic Sequence Database</h3>
+                            <p>Curated collection of DNA barcode sequences for marine species identification and biodiversity assessment.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="dataset-card">
+                        <div class="dataset-image">
+                            <img src="https://i.postimg.cc/KYZWj9Kf/Sharks.jpg" alt="Biodiversity metrics">
+                        </div>
+                        <div class="dataset-info">
+                            <h3>Biodiversity Metrics</h3>
+                            <p>Calculated biodiversity indices, species richness estimates, and community composition data derived from eDNA analysis.</p>
+                            <a href="#" class="dataset-link">Explore Dataset <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visualization Section -->
+    <section class="visualization" id="visualization">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visualization & Tools</h2>
+                <p>Interactive dashboards and analytical tools for marine data exploration</p>
+            </div>
+            <div class="viz-container">
+                <div class="viz-placeholder">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Data visualization dashboard" class="viz-image">
+                    <div class="viz-overlay">
+                        <h3>Interactive Data Dashboard</h3>
+                        <p>Our powerful visualization tools allow researchers to explore complex marine datasets through interactive maps, time-series plots, and 3D models.</p>
+                        
+                        <div class="viz-tools">
+                            <button class="viz-tool">
+                                <i class="fas fa-download"></i>
+                                <span>Export Data</span>
+                            </button>
+                            <button class="viz-tool">
+                                <i class="fas fa-share-alt"></i>
+                                <span>Share</span>
+                            </button>
+                            <button class="viz-tool">
+                                <i class="fas fa-cog"></i>
+                                <span>Customize</span>
+                            </button>
+                        </div>
+                        
+                        <a href="#" class="btn btn-primary">Access Dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases" id="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2>Use Cases</h2>
+                <p>Real-world applications of MERENIX across marine sectors</p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Sustainable Fisheries</h3>
+                    <p>Optimize fishing efforts, predict stock fluctuations, and implement ecosystem-based fisheries management using integrated data on ocean conditions, fish populations, and harvesting patterns.</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Biodiversity Conservation</h3>
+                    <p>Identify biodiversity hotspots, track changes in species distribution, and evaluate conservation effectiveness by combining traditional survey data with cutting-edge eDNA analysis.</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Blue Economy</h3>
+                    <p>Support sustainable marine economic development by providing data-driven insights for aquaculture site selection, renewable energy planning, and tourism management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research & Publications</h2>
+                <p>Scientific contributions powered by MERENIX</p>
+            </div>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <h3 class="publication-title">Integrated Assessment of Indian Ocean Biodiversity Using eDNA Metabarcoding</h3>
+                    <p class="publication-authors">Sharma, A., Kumar, R., Nair, R.J., & Menon, N.G. (2023)</p>
+                    <a href="#" class="publication-link">Read Publication <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="publication-card">
+                    <h3 class="publication-title">Predictive Modeling of Fish Stock Dynamics Under Climate Change Scenarios</h3>
+                    <p class="publication-authors">Patel, S., Fernandes, V., & Khan, M. (2023)</p>
+                    <a href="#" class="publication-link">Read Publication <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="publication-card">
+                    <h3 class="publication-title">MERENIX: A Unified Platform for Marine Data Integration and Analysis</h3>
+                    <p class="publication-authors">Menon, N.G., Nair, R.J., & the MERENIX Development Team (2022)</p>
+                    <a href="#" class="publication-link">Read Publication <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="publication-card">
+                    <h3 class="publication-title">Application of Machine Learning in Oceanographic Data Analysis</h3>
+                    <p class="publication-authors">Kumar, R., Sharma, A., & Singh, V. (2022)</p>
+                    <a href="#" class="publication-link">Read Publication <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Join Our Research Community</h2>
+                <p>Collaborate with leading marine researchers and access cutting-edge tools for ocean data analysis</p>
+                <a href="#" class="btn btn-primary">Request Access</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with the MERENIX team</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-error" id="name-error">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-error" id="email-error">Please enter a valid email address</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="organization">Organization</label>
+                            <input type="text" id="organization" name="organization">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="form-error" id="message-error">Please enter your message</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Centre for Marine Living Resources & Ecology (CMLRE)<br>
+                            Ministry of Earth Sciences, Government of India<br>
+                            P.B. No. 853, Sushil Building, Kochi - 682 016, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@merenix.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 484 239 4214</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Ministry of Earth Sciences</h4>
+                            <p><a href="https://moes.gov.in" target="_blank">moes.gov.in</a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">
+                    <i class="fas fa-water"></i>
+                    MARENIX
+                </a>
+                <p class="footer-text">AI-Driven Unified Data Platform for Oceanographic & Biodiversity Insights</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Data Policy</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <p class="copyright">&copy; 2023 MERENIX. All rights reserved. | Centre for Marine Living Resources & Ecology, Ministry of Earth Sciences, Government of India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
